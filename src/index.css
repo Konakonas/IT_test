@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.centered-block {
+  display: flex;
+  justify-content: center; /* Горизонтальное центрирование */
+  align-items: center; /* Вертикальное центрирование */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.home-tab {
+  padding: 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center; /* Горизонтальное центрирование */
+  align-items: center; /* Вертикальное центрирование */
+}
+
+.home-tab h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home-tab p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.home-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.home-tab li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.home-tab li:last-child {
+  margin-right: 0;
+}
+
+.home-tab a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.home-tab a:hover {
+  color: #000;
+}
+.blogs-tab {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.blogs-tab h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.blogs-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blogs-tab li {
+  margin-bottom: 30px;
+}
+
+.blogs-tab a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+.blogs-tab img {
+  float: left;
+  margin-right: 20px;
+}
+
+.blogs-tab h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blogs-tab p {
+  font-size: 18px;
+  line-height: 1.5;
+}
